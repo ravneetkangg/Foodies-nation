@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url(https://images6.alphacoders.com/111/thumb-1920-1113164.jpg);
+    background-position: center;
+}
+
+#div1 {
+    background-color: rgb(46, 25, 2);
+    height: 75px;
+    width: 1440px;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    margin-left: -8px;
+}
+
+#logoimg img {
+    height: 40px;
+    width: 40px;
+    margin: 17px 25px;
+}
+
+#buttons {
+    display: block;
+    text-align: end;
+    margin: -55px 0px;
+}
+
+#b1 {
+    border: none;
+    background: none;
+    font-family: fantasy;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: large;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+#b1:hover {
+    border: none;
+    background-color: white;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgba(46, 25, 2, 1);
+    font-size: larger;
+    cursor: -moz-zoom-in;
+    border-radius: 10px;
+}
+
+.container {
+    width: 360px;
+    background: rgb(46, 25, 2);
+    ;
+}
+
+.container form {
+    width: 100%;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+form h1 {
+    padding: 10px 0;
+}
+
+
+/* form .id {
+    position: relative;
+} */
+
+form input {
+    width: 100%;
+    height: 50px;
+    margin: 4px 0;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: rgb(46, 25, 2);
+    padding: 0 15px;
+    padding-right: 45px;
+    font-size: 20px;
+}
+
+form textarea {
+    padding: 5px 15px;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: rgb(46, 25, 2);
+    ;
+    font-size: 20px;
+    width: 100%;
+    margin: 4px 0;
+}
+
+form button {
+    margin-top: 5px;
+    border: none;
+    background: wheat;
+    color: rgb(46, 25, 2);
+    ;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+form input:focus,
+form textarea:focus {
+    border: 1px solid wheat;
+    color: owheat
+}
+
+form input:focus::placeholder,
+form textarea:focus::placeholder {
+    padding-left: 4px;
+    color: wheat;
+}

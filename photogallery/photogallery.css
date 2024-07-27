@@ -1,0 +1,97 @@
+#div1 {
+    background-color: rgb(46, 25, 2);
+    height: 75px;
+    width: 1440px;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    margin-left: -8px;
+}
+
+#logoimg img {
+    height: 40px;
+    width: 40px;
+    margin: 17px 25px;
+}
+
+#buttons {
+    display: block;
+    text-align: end;
+    margin: -55px 0px;
+}
+
+#b1 {
+    border: none;
+    background: none;
+    font-family: fantasy;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: large;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+#b1:hover {
+    border: none;
+    background-color: white;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgba(46, 25, 2, 1);
+    font-size: larger;
+    cursor: -moz-zoom-in;
+    border-radius: 10px;
+}
+
+#galleryback {
+    background-image: url(https://images6.alphacoders.com/657/thumb-1920-657706.jpg);
+    /* width: 1435px; */
+    height: 550px;
+    padding-top: 50px;
+    /* background-size: cover; */
+    /* margin-left: -8px;
+    margin-right: -8px; */
+    margin: -8px -8px -8px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#galleryhead {
+    text-align: center;
+    color: aliceblue;
+    font-size: 100px;
+    font-style: normal;
+    font-family: fantasy;
+    /* text-decoration: underline; */
+    text-shadow: 6px 6px 10px black;
+    margin-top: 100px;
+}
+
+#whiteback {
+    height: 2600px;
+    width: 1200px;
+    background-color: rgb(214, 166, 115);
+    margin: auto;
+    margin-top: -250px;
+}
+
+#whitebackhead {
+    text-align: center;
+    font-size: 70px;
+    font-family: cursive;
+    text-decoration: underline;
+    text-shadow: 3px 3px 11px rgb(46, 25, 2);
+}
+
+#rc {
+    height: 300px;
+    width: 355px;
+    margin: 20px;
+    background-position: center;
+    border-radius: 10px;
+}
+
+#rc:hover {
+    height: 308px;
+    width: 358px;
+}

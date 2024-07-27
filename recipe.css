@@ -1,0 +1,116 @@
+body {
+    background-color: wheat;
+    margin: 0px;
+    padding: 0px;
+    font-family: fantasy;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: fantasy;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 2px solid black;
+}
+
+#heading span {
+    color: brown;
+    font-size: 2rem;
+}
+
+#heading h3 {
+    font-size: 6rem;
+    color: black;
+    font-weight: 600;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap-reverse;
+    border-bottom: 2px solid black;
+}
+
+.cat-box {
+    width: 350px;
+    /* width: auto; */
+    background-color: white;
+    border: 1px solid pink;
+    margin: 20px;
+}
+
+.cat-img {
+    width: 100%;
+    height: auto;
+}
+
+.cat-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text span {
+    color: tomato;
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+
+.text span:hover {
+    color: green;
+    font-size: 1.5rem;
+    font-family: monospace;
+    border-bottom: 2px solid black;
+}
+
+.text .info {
+    font-size: 1.4rem;
+    font-weight: 500;
+    /* color: black; */
+    color: brown;
+    padding-top: 10px;
+    font-family: monospace;
+}
+
+
+/* .text .info:hover {
+    color: brown;
+    transition: color 2sec;
+    font-size: 1.2rem;
+} */
+
+.text p {
+    color: grey;
+    font-size: 1rem;
+    padding-top: 6px;
+}
+
+.dish-type {
+    text-align: center;
+    font-size: 2.5rem;
+}

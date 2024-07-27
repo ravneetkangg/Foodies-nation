@@ -1,0 +1,191 @@
+body {
+    margin: 0px;
+}
+
+#div1 {
+    background-color: rgb(46, 25, 2);
+    height: 5.5vw;
+    width: 100vw;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+}
+
+#logoimg img {
+    height: 40px;
+    width: 40px;
+    margin: 17px 25px;
+}
+
+#buttons {
+    display: block;
+    text-align: end;
+    margin: -55px 0px;
+}
+
+#mainbuttons {
+    display: block;
+    text-align: center;
+}
+
+#b1 {
+    border: none;
+    background: none;
+    font-family: fantasy;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: large;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+#b1:hover {
+    border: none;
+    background-color: white;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgba(46, 25, 2, 1);
+    font-size: larger;
+    cursor: -moz-zoom-in;
+    border-radius: 10px;
+}
+
+#b2 {
+    text-align: center;
+    margin-right: 50px;
+    font-family: fantasy;
+    font-weight: bolder;
+    border: none;
+    font-size: 30px;
+    background-color: rgb(46, 25, 2);
+    color: white;
+    border-radius: 10px;
+}
+
+#b2:hover {
+    text-align: center;
+    margin-right: 50px;
+    font-family: fantasy;
+    font-weight: bolder;
+    border: none;
+    font-size: 31px;
+    background-color: white;
+    color: rgb(46, 25, 2);
+    border-radius: 10px;
+    cursor: -moz-zoom-in;
+}
+
+#div2 {
+    background-image: url(https://images6.alphacoders.com/111/thumb-1920-1113164.jpg);
+    width: 1440px;
+    height: 747px;
+    margin-top: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 1px 0px;
+    margin: 0px 0px;
+    margin-left: -8px;
+    padding-right: 10px;
+}
+
+#homejoinsection {
+    height: 10vh;
+    width: 100vw;
+}
+
+#noodleback {
+    background-image: url(https://pngimg.com/uploads/noodle/noodle_PNG48.png);
+    height: 780px;
+    width: 1425px;
+    background-attachment: fixed;
+    padding-right: 17px;
+}
+
+#div5 {
+    padding-top: 73px;
+}
+
+#welcome-to {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 100px;
+    text-shadow: 6px 6px 6px rgb(46, 25, 2);
+    font-weight: bolder;
+}
+
+#p1 {
+    text-align: center;
+    font-size: 110px;
+    font-weight: bolder;
+    color: white;
+    font-family: fantasy;
+    text-shadow: 6px 6px 6px rgb(46, 25, 2);
+    padding-left: -10px;
+    margin-top: -30px;
+    animation: expand 1s ease forwards;
+}
+
+#p2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 100px;
+    text-shadow: 6px 6px 6px rgb(46, 25, 2);
+    margin-top: -140px;
+    font-weight: bolder;
+}
+
+#png {
+    margin-top: 100px;
+    background-color: wheat;
+    border-radius: 30px;
+    margin-right: 20px;
+    background-size: 100%;
+}
+
+#png:hover {
+    font-size: xx-large;
+    background-color: orange;
+    background-size: 80%
+}
+
+div {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+#location {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    background-color: rgba(255, 192, 123, 0.76);
+}
+
+#location span {
+    height: 5vh;
+    width: 100vws;
+    /* padding-bottom: -150px; */
+}
+
+#location p {
+    text-align: center;
+    font-size: 90px;
+    font-family: monospace;
+}
